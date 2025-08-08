@@ -1,0 +1,109 @@
+=== Custom CNN ===
+                                  precision    recall  f1-score   support
+
+                     animal fish     0.9754    0.9904    0.9828       520
+                animal fish bass     0.0000    0.0000    0.0000        13
+   fish sea_food black_sea_sprat     0.9637    0.9799    0.9717       298
+   fish sea_food gilt_head_bream     0.9781    0.7311    0.8368       305
+   fish sea_food hourse_mackerel     0.9286    1.0000    0.9630       286
+        fish sea_food red_mullet     1.0000    1.0000    1.0000       291
+     fish sea_food red_sea_bream     0.6959    0.9890    0.8169       273
+          fish sea_food sea_bass     0.9858    0.8471    0.9112       327
+            fish sea_food shrimp     1.0000    1.0000    1.0000       289
+fish sea_food striped_red_mullet     1.0000    0.9659    0.9826       293
+             fish sea_food trout     0.9930    0.9760    0.9845       292
+
+                        accuracy                         0.9448      3187
+                       macro avg     0.8655    0.8618    0.8590      3187
+                    weighted avg     0.9518    0.9448    0.9437      3187
+
+=== VGG16 ===
+                                  precision    recall  f1-score   support
+
+                     animal fish     0.9773    0.9923    0.9847       520
+                animal fish bass     0.0000    0.0000    0.0000        13
+   fish sea_food black_sea_sprat     0.8892    0.9966    0.9399       298
+   fish sea_food gilt_head_bream     0.9385    1.0000    0.9683       305
+   fish sea_food hourse_mackerel     0.9895    0.9860    0.9877       286
+        fish sea_food red_mullet     0.9679    0.9313    0.9492       291
+     fish sea_food red_sea_bream     0.9925    0.9744    0.9834       273
+          fish sea_food sea_bass     1.0000    0.9358    0.9668       327
+            fish sea_food shrimp     0.9633    1.0000    0.9813       289
+fish sea_food striped_red_mullet     0.9382    0.8805    0.9085       293
+             fish sea_food trout     0.9965    0.9760    0.9862       292
+
+                        accuracy                         0.9649      3187
+                       macro avg     0.8775    0.8794    0.8778      3187
+                    weighted avg     0.9621    0.9649    0.9628      3187
+
+=== ResNet50 ===
+                                  precision    recall  f1-score   support
+
+                     animal fish     0.9749    0.8962    0.9339       520
+                animal fish bass     0.0000    0.0000    0.0000        13
+   fish sea_food black_sea_sprat     0.7545    0.8456    0.7975       298
+   fish sea_food gilt_head_bream     0.7011    0.6230    0.6597       305
+   fish sea_food hourse_mackerel     0.6150    0.8042    0.6970       286
+        fish sea_food red_mullet     0.7737    0.6460    0.7041       291
+     fish sea_food red_sea_bream     0.4389    0.9744    0.6052       273
+          fish sea_food sea_bass     0.7148    0.5749    0.6373       327
+            fish sea_food shrimp     0.8741    0.8893    0.8816       289
+fish sea_food striped_red_mullet     0.9322    0.1877    0.3125       293
+             fish sea_food trout     0.9208    0.8356    0.8761       292
+
+                        accuracy                         0.7330      3187
+                       macro avg     0.7000    0.6615    0.6459      3187
+                    weighted avg     0.7828    0.7330    0.7231      3187
+
+=== MobileNet ===
+                                  precision    recall  f1-score   support
+
+                     animal fish     0.9756    1.0000    0.9877       520
+                animal fish bass     0.0000    0.0000    0.0000        13
+   fish sea_food black_sea_sprat     0.9967    1.0000    0.9983       298
+   fish sea_food gilt_head_bream     0.9967    1.0000    0.9984       305
+   fish sea_food hourse_mackerel     1.0000    1.0000    1.0000       286
+        fish sea_food red_mullet     0.9965    0.9897    0.9931       291
+     fish sea_food red_sea_bream     1.0000    0.9963    0.9982       273
+          fish sea_food sea_bass     1.0000    1.0000    1.0000       327
+            fish sea_food shrimp     1.0000    1.0000    1.0000       289
+fish sea_food striped_red_mullet     0.9898    0.9932    0.9915       293
+             fish sea_food trout     1.0000    1.0000    1.0000       292
+
+                        accuracy                         0.9940      3187
+                       macro avg     0.9050    0.9072    0.9061      3187
+                    weighted avg     0.9901    0.9940    0.9920      3187
+
+=== InceptionV3 ===
+                                  precision    recall  f1-score   support
+
+                     animal fish     0.9756    0.9981    0.9867       520
+                animal fish bass     0.0000    0.0000    0.0000        13
+   fish sea_food black_sea_sprat     1.0000    1.0000    1.0000       298
+   fish sea_food gilt_head_bream     1.0000    1.0000    1.0000       305
+   fish sea_food hourse_mackerel     1.0000    1.0000    1.0000       286
+        fish sea_food red_mullet     0.9965    0.9897    0.9931       291
+     fish sea_food red_sea_bream     1.0000    1.0000    1.0000       273
+          fish sea_food sea_bass     0.9970    1.0000    0.9985       327
+            fish sea_food shrimp     1.0000    1.0000    1.0000       289
+fish sea_food striped_red_mullet     0.9864    0.9932    0.9898       293
+             fish sea_food trout     1.0000    1.0000    1.0000       292
+
+                        accuracy                         0.9940      3187
+                       macro avg     0.9050    0.9074    0.9062      3187
+                    weighted avg     0.9901    0.9940    0.9920      3187
+
+== EfficientNetB0 ===
+                                  precision    recall  f1-score   support
+
+                     animal fish     0.1632    1.0000    0.2806       520
+                animal fish bass     0.0000    0.0000    0.0000        13
+   fish sea_food black_sea_sprat     0.0000    0.0000    0.0000       298
+   fish sea_food gilt_head_bream     0.0000    0.0000    0.0000       305
+   fish sea_food hourse_mackerel     0.0000    0.0000    0.0000       286
+        fish sea_food red_mullet     0.0000    0.0000    0.0000       291
+     fish sea_food red_sea_bream     0.0000    0.0000    0.0000       273
+          fish sea_food sea_bass     0.0000    0.0000    0.0000       327
+            fish sea_food shrimp     0.0000    0.0000    0.0000       289
+fish sea_food striped_red_mullet     0.0000    0.0000    0.0000       293
+             fish sea_food trout     0.0000    0.0000    0.0000       292
