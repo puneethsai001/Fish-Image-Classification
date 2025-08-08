@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+
+# Logs
+*.log
+
+# If you DON'T plan to push the full dataset/models, keep these ignored:
+Dataset/
+models/
+*.h5 *.hdf5 *.keras *.pt *.pth *.onnx
